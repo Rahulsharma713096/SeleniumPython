@@ -30,3 +30,6 @@ assert ("Success" in message)
 lenAElement = driver.find_elements(By.XPATH, "//a").__sizeof__()
 
 print(lenAElement)
+print("End")
+driver.close()
+
